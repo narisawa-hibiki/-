@@ -91,13 +91,13 @@ int WindowsSerial::available(void)
     return (int)ComStat.cbInQue;
 }
 
-int WindowsSerial::read(void)
+uint8_t WindowsSerial::read(void)
 {
     if (GetState() == false) {
         return -1;
     }
 
-    int8_t read_data;
+    uint8_t read_data = 0;
     DWORD dwSendSize;
 
     int ret = ReadFile(   // データの受信
@@ -113,7 +113,7 @@ int WindowsSerial::read(void)
         return -1;
     }
 
-    return static_cast<int>(read_data);
+    return read_data;
 }
 
 int WindowsSerial::write(uint8_t val)
@@ -243,7 +243,7 @@ int WindowsSerial::ComSetting(int baudrate)
     // 　一般に、XOFF文字として13H ( デバイス制御3：DC3 )がよく使われます
 
     // その他
-    dcb.fNull = TRUE;          // NULLバイトの破棄： 破棄する→TRUE
+    dcb.fNull = FALSE;          // NULLバイトの破棄： 破棄する→TRUE
     dcb.fAbortOnError = TRUE;  // エラー時の読み書き操作終了：　終了する→TRUE
     dcb.fErrorChar = FALSE;    // パリティエラー発生時のキャラクタ（ErrorChar）置換：　なし→FLALSE
     dcb.ErrorChar = 0x00;      // パリティエラー発生時の置換キャラクタ

@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|D:\\UEProject\\ASerial_Test\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|D:\\UEProject\\ASerial_Test\\WindowsSerial\\WindowsSerial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|solutionrelative:WindowsSerial\\WindowsSerial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|D:\\UEProject\\ASerial_Test\\ASerial_lib_Controller_Win.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|solutionrelative:ASerial_lib_Controller_Win.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|D:\\UEProject\\ASerial_Test\\ASerial_lib_Controller_Win.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|solutionrelative:ASerial_lib_Controller_Win.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|D:\\UEProject\\ASerial_Test\\WindowsSerial\\WindowsSerial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5652FDA0-66D3-40E2-812D-A9467097BB67}|ASerial_Test\\ASerial_Test.vcxproj|solutionrelative:WindowsSerial\\WindowsSerial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowsSerial.h",
+              "DocumentMoniker": "D:\\UEProject\\ASerial_Test\\WindowsSerial\\WindowsSerial.h",
+              "RelativeDocumentMoniker": "WindowsSerial\\WindowsSerial.h",
+              "ToolTip": "D:\\UEProject\\ASerial_Test\\WindowsSerial\\WindowsSerial.h",
+              "RelativeToolTip": "WindowsSerial\\WindowsSerial.h",
+              "ViewState": "AgIAACgAAAAAAAAAAAAhwDUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-08T11:09:29.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowsSerial.cpp",
+              "DocumentMoniker": "D:\\UEProject\\ASerial_Test\\WindowsSerial\\WindowsSerial.cpp",
+              "RelativeDocumentMoniker": "WindowsSerial\\WindowsSerial.cpp",
+              "ToolTip": "D:\\UEProject\\ASerial_Test\\WindowsSerial\\WindowsSerial.cpp",
+              "RelativeToolTip": "WindowsSerial\\WindowsSerial.cpp",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAhwPoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-08T09:45:05.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ASerial_lib_Controller_Win.h",
+              "DocumentMoniker": "D:\\UEProject\\ASerial_Test\\ASerial_lib_Controller_Win.h",
+              "RelativeDocumentMoniker": "ASerial_lib_Controller_Win.h",
+              "ToolTip": "D:\\UEProject\\ASerial_Test\\ASerial_lib_Controller_Win.h",
+              "RelativeToolTip": "ASerial_lib_Controller_Win.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-08T09:24:11.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ASerial_lib_Controller_Win.cpp",
+              "DocumentMoniker": "D:\\UEProject\\ASerial_Test\\ASerial_lib_Controller_Win.cpp",
+              "RelativeDocumentMoniker": "ASerial_lib_Controller_Win.cpp",
+              "ToolTip": "D:\\UEProject\\ASerial_Test\\ASerial_lib_Controller_Win.cpp",
+              "RelativeToolTip": "ASerial_lib_Controller_Win.cpp",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-08T09:01:18.876Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\UEProject\\ASerial_Test\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-08T08:27:29.11Z",
               "EditorCaption": ""

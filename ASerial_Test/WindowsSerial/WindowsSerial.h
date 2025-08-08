@@ -51,7 +51,7 @@ class WindowsSerial {
 
     /// @brief データを読み取る
     /// @return -1:未接続 -1以外:読み取ったデータ
-    int read(void);
+    uint8_t read(void);
 
     /// @brief データを書き込む
     /// @param val 書き込むデータ

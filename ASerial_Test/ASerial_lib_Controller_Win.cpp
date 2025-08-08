@@ -34,7 +34,11 @@ int ASerial_lib_Controller_Win::ConnectDevice(int COM_num)
         return -1;
     }
 
+    m_inteface->clear();
+
     st = WriteData(RESERVED_COMMAND_GET_INFO);
+
+    
 
     ASerialDataStruct::ASerialData data_buf;
 
@@ -43,20 +47,23 @@ int ASerial_lib_Controller_Win::ConnectDevice(int COM_num)
     while (1) {
         st = ReadDataProcess(&data_buf);
 
-        if (st != 0 || clock() - read_time >= 50) {       
+        if (st != 0 || clock() - read_time >= 200) {       
             break; 
         }
     }
 
-    if (clock() - read_time >= 50 || st == -1 || data_buf.data[0] != GetID() ||
+    
+
+    if (clock() - read_time >= 200 || st == -1 || data_buf.data[0] != GetID() ||
         (data_buf.data[1] < m_device_ver_min && data_buf.data[1] > m_device_ver_max)) {
         m_inteface->ClosePort();
+        
         return -1;
     }
 
-    SetConnectionState(true);
+SetConnectionState(true);
 
-    return 0;
+return 0;
 }
 
 int ASerial_lib_Controller_Win::AutoConnectDevice(void) {
@@ -66,16 +73,16 @@ int ASerial_lib_Controller_Win::AutoConnectDevice(void) {
 
     int ret = 0;
 
-    for(int i = 1; i <= 255; ++i) {
+    for (int i = 1; i <= 255; ++i) {
         int st = ConnectDevice(i);
 
-        if(st == 0) {
+        if (st == 0) {
             ret = i;
             break;
         }
     }
 
-    if(ret == 0) {
+    if (ret == 0) {
         return -1;
     }
 
@@ -83,14 +90,14 @@ int ASerial_lib_Controller_Win::AutoConnectDevice(void) {
 }
 
 int ASerial_lib_Controller_Win::DisConnectDevice(void) {
-    if(m_inteface->GetState() == false) {
+    if (m_inteface->GetState() == false) {
         return -1;
     }
 
     int st = m_inteface->ClosePort();
 
     SetConnectionState(false);
-    
+
     return st;
 }
 
@@ -104,8 +111,11 @@ int ASerial_lib_Controller_Win::ReadDataProcess(ASerialDataStruct::ASerialData* 
 
     int st = 0;
     if (m_inteface->available() > 0) {
-        int read_c = m_inteface->read();
-        if(read_c != -1){
+        
+        uint8_t read_c = m_inteface->read();
+        printf("0x%X\n", read_c);
+        if (read_c != -1) {
+            
             st = ReadPacketData(read_c, read_data_buf);
         }
     }
@@ -145,7 +155,7 @@ int ASerial_lib_Controller_Win::WriteData(uint8_t command)
 {
     const int BUF_SIZE = 6;
 
-    uint8_t packet_buf[BUF_SIZE] = {0};
+    uint8_t packet_buf[BUF_SIZE] = { 0 };
 
     int st = MakePacketData(command, packet_buf);
 
@@ -154,7 +164,7 @@ int ASerial_lib_Controller_Win::WriteData(uint8_t command)
     }
 
     int write_size = m_inteface->write(packet_buf, BUF_SIZE);
-
+    printf("%d\n", write_size);
     if (write_size != BUF_SIZE) {
         return -1;
     }

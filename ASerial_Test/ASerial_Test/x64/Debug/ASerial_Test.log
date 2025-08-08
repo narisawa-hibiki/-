@@ -1,35 +1,4 @@
-﻿  ASerial_packet.cpp
-  ASerial_lib_Controller_Win.cpp
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_packet.cpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_packet.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerialCore/ASerial_packet.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_ErrorCodeList.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerialCore/ASerial_packet.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_ErrorCodeList.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerialCore/ASerial_packet.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerial_lib_Controller_Win.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerial_lib_Controller_Win.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_packet.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerial_lib_Controller_Win.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_ErrorCodeList.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerial_lib_Controller_Win.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerial_lib_Controller_Win.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerial_lib_Controller_Win.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_ErrorCodeList.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../ASerial_lib_Controller_Win.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerial_lib_Controller_Win.cpp(122,18): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-  main.cpp
+﻿  main.cpp
 D:\UEProject\ASerial_Test\main.cpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
 D:\UEProject\ASerial_Test\ASerial_lib_Controller_Win.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   (ソース ファイル '../main.cpp' をコンパイルしています)
@@ -46,17 +15,4 @@ D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.h(1,1): warning C4819: フ
 D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   (ソース ファイル '../main.cpp' をコンパイルしています)
   
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_packet.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../main.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\ASerialCore\ASerial_ErrorCodeList.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../main.cpp' をコンパイルしています)
-  
-  WindowsSerial.cpp
-D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.cpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  (ソース ファイル '../WindowsSerial/WindowsSerial.cpp' をコンパイルしています)
-  
-D:\UEProject\ASerial_Test\WindowsSerial\WindowsSerial.cpp(153,19): warning C4267: '引数': 'size_t' から 'DWORD' に変換しました。データが失われているかもしれません。
-  コードを生成中...
   ASerial_Test.vcxproj -> D:\UEProject\ASerial_Test\x64\Debug\ASerial_Test.exe
